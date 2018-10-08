@@ -1,0 +1,27 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "no-console": false,
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
+  },
+  "defaultSeverity": "warning",
+  "jsRules": {
+    "max-line-length": {
+      "options": [120]
+    }
+  }
+}
